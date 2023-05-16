@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+    <title class="pageTitle">Remove background from image for free</title>
+    <meta name="description"
+        content="Remove background from image automatically in 5 seconds. Don't waste time manually selecting pixels. Just upload photo & get instant cutout.">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="manifest" href="/static/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="google-site-verification" content="uYZov76g-RvHAV17GFJCTeJN7PUh8nsZE6sxO1BwSTY">
+    <script src="js/api.js" async defer></script>
+    <script src="js/anal.js" async ></script>
+
+
+    <meta name="p:domain_verify" content="ac7dd844dcd33b5683ad714dd514c3f0">
+
+    <link rel="stylesheet" href="css/packed.css">
+    <script type="text/javascript" src="js/packed_et.js"></script>
+
+</head>
+
+<body class="appear-animate">
+
+
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="full-wrapper relative d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="/">
+                <img src="fonts/logo.svg" alt="Slazzer logo">
+
+            </a>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    
+                </ul>
+                <ul class="navber-links">
+                    <li class="removed-bg download">
+                        <a href="https://github.com/leonaeng/bg-remover/archive/refs/heads/main.zip">Remove Background</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-header-height"></div>
+    <div class="notification-alert"></div>
+    <div class="upload-container image-drag-drop" style="display: none">
+        <div class="showDragAndDropBackground" style="display: none;">
+            <span class="showDragAndDropBackgroundInnerDiv">Drop image here</span><br>
+            <p class="showDragAndDropBackgroundInnerDiv">1 image at a time</p>
+        </div>
+        <div class="try-now bg-white upload_image_div" id="drag-drop-more-then-one">
+            <div class="container">
+                <span class="heading">Thanks for downloading</span>
+                <div class="bannerUpload">
+                    <div class="upload">
+                        <a type="btn" class="upload-photo upload-image-file-btn download" href="https://github.com/leonaeng/bg-remover/archive/refs/heads/main.zip">
+                            <i class="fa fa fa-picture-o"></i>Download BG Remover
+                        </a>
+                       
+                        <input type="file" id="input_user_image_upload"
+                            accept=".jpg,.jpeg,.png,image/jpg,image/png,image/jpeg" style="display: none">
+                        <button class="g-recaptcha" id="btnRecaptcha" style="display:none;"
+                            data-sitekey="6LefBDUaAAAAABwJka5NOfN6-sgAEmk_JABbxQH0" data-callback="onSubmit"
+                            data-action="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="terms-service">
+                <p>By downloading app you hereby agree to our Terms of Service. This
+                    site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy"
+                        target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms"
+                        target="_blank">Terms of Service</a> apply.</p>
+            </div>
+        </div>
+        <div id="recaptcha" class="g-recaptcha" data-sitekey="6LcIANAeAAAAAKNH1c6TewuS639Uf6H2oNduWA06"
+            data-callback="onImageUpload123" data-size="invisible"></div>
+        <div class="try-more btn2_upload" style="display: none">
+            <a type="button" class="btn user_image_upload download" href="https://github.com/leonaeng/bg-remover/archive/refs/heads/main.zip">Download BG Remover</a>
+        </div>
+
+        <div id="recaptcha-main-div" style="display: none">
+            <div class="captcha-holder">
+                <div class="captcha-box">
+                    <div id="div-show-recaptcha"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main_image_container" class="preview"></div>
+        <div class="caution discarded" id="upload_important_text" style="display: none">
+            <p>*Don't forget to download your files. They will be automatically discarded within 30 minutes.</p>
+        </div>
+    </div>
+    <div class="main-container image-drag-drop">
+        <div class="showDragAndDropBackground" style="display: none;">
+            <span class="showDragAndDropBackgroundInnerDiv">Drop image here</span><br>
+            <p class="showDragAndDropBackgroundInnerDiv">1 image at a time</p>
+        </div>
+
+        <section class="home-banner">
+            <div class="wrap">
+                <div class="home-banner--image">
+                    <img src="images/home_banner.jpg" alt="Get white background in just a few seconds with Slazzer.com">
+                </div>
+                <div class="home-banner--text">
+                    <h1 class="desktop">
+                        Remove Image Background Automatically & <span class="underline-text">Free</span>
+                    </h1>
+                    <div class="upload">
+                        <a type="btn" class="upload-photo upload-image-file-btn download" href="https://github.com/leonaeng/bg-remover/archive/refs/heads/main.zip">
+                            <i class="fa fa fa-picture-o"></i>Download BG Remover
+                        </a>
+                       
+                    </div>
+                    <div class="terms-service">
+                        <p>By uploading an image you hereby agree to our Terms of
+                                Service. This site is protected by reCAPTCHA and the Google <a
+                                href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a
+                                href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="trustedBy">
+            <div class="wrap">
+                <span>Trusted and loved by companies worldwide</span>
+                <div class="marquee">
+                    <ul class="marquee-content">
+                        <li class="marquee-item"><img src="fonts/microsoft.svg" alt="microsoft"></li>
+                        <li class="marquee-item"><img src="images/scandi-system.png" alt="scandi-system"></li>
+                        <li class="marquee-item"><img src="fonts/visme.svg" alt="visme"></li>
+                        <li class="marquee-item"><img src="images/ladipage.png" alt="ladipage"></li>
+                        <li class="marquee-item"><img src="fonts/allas.svg" alt="allas"></li>
+                        <li class="marquee-item"><img src="fonts/planetart.svg" width="140" alt="planetart"></li>
+                        <li class="marquee-item"><img src="fonts/photoAid.svg" alt="photoAid"></li>
+                        <li class="marquee-item"><img src="images/etality.png" alt="etality"></li>
+                        <li class="marquee-item"><img src="fonts/footway.svg" alt="footway"></li>
+                        <li class="marquee-item"><img src="fonts/pamono.svg" alt="pamono"></li>
+                        <li class="marquee-item"><img src="images/trendage.png" alt="trendage"></li>
+                        <li class="marquee-item"><img src="fonts/microsoft.svg" alt="microsoft"></li>
+                        <li class="marquee-item"><img src="images/scandi-system.png" alt="scandi-system"></li>
+                        <li class="marquee-item"><img src="fonts/visme.svg" alt="visme"></li>
+                        <li class="marquee-item"><img src="images/ladipage.png" alt="ladipage"></li>
+                        <li class="marquee-item"><img src="fonts/allas.svg" alt="allas"></li>
+                        <li class="marquee-item"><img src="fonts/planetart.svg" width="140" alt="planetart"></li>
+                        <li class="marquee-item"><img src="fonts/photoAid.svg" alt="photoAid"></li>
+                        <li class="marquee-item"><img src="images/etality.png" alt="etality"></li>
+                        <li class="marquee-item"><img src="fonts/footway.svg" alt="footway"></li>
+                        <li class="marquee-item"><img src="fonts/pamono.svg" alt="pamono"></li>
+                        <li class="marquee-item"><img src="images/trendage.png" alt="trendage"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row achivementsStatus">
+                    <div class="col-md-4 mb-5 mb-md-0">
+                        <h4>1M +</h4>
+                        <h6>users over the world</h6>
+                    </div>
+                    <div class="col-md-4 mb-5 mb-md-0">
+                        <h4>10M +</h4>
+                        <h6>backgrounds removed every month</h6>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>100 %</h4>
+                        <h6>GDPR complaint</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo" id="portfolio">
+            <div class="container">
+                <h2 class="text-center">Visualize the power of AI</h2>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="few seconds nav-item">
+                        <a class="nav-link active" id="individual-tab" data-toggle="tab" href="#individual" role="tab"
+                            aria-controls="individual" aria-selected="true">People</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="ecommerce-tab" data-toggle="tab" href="#ecommerce" role="tab"
+                            aria-controls="ecommerce" aria-selected="false">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="carDealerships-tab" data-toggle="tab" href="#carDealerships" role="tab"
+                            aria-controls="carDealerships" aria-selected="false">Car</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="animal-tab" data-toggle="tab" href="#animal" role="tab"
+                            aria-controls="animal" aria-selected="false">Animals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab"
+                            aria-controls="design" aria-selected="false">Graphics</a>
+                    </li>
+                    <li class="few seconds nav-item">
+                        <a class="nav-link" id="realestate-tab" data-toggle="tab" href="#realestate" role="tab"
+                            aria-controls="realestate" aria-selected="true">Real Estate</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="individual" role="tabpanel"
+                        aria-labelledby="individual-tab">
+                        <ul>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-human-01.jpg" alt="Remove background from image">
+                                    <span>Original image</span>
+                                </div>
+                                <div class="itemHover">
+                                    <img src="images/demo-human-02.jpg" alt="Free background removal online">
+                                    <span>Removed background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-human-03.jpg" alt="Add new background">
+                                    <span class="light">Add new background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-human-04.jpg" alt="Design as you like">
+                                    <span>Design as you like</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="ecommerce" role="tabpanel" aria-labelledby="ecommerce-tab">
+                        <ul>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-product-01.jpg" alt="Remove background from image">
+                                    <span>Original image</span>
+                                </div>
+                                <div class="itemHover">
+                                    <img src="images/demo-product-02.jpg" alt="Free background removal online">
+                                    <span>Removed background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-product-03.jpg" alt="Add new background on Product image">
+                                    <span>Add new background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-product-04.jpg" alt="Design as you like the Product image">
+                                    <span class="bottom">Design as you like</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="carDealerships" role="tabpanel" aria-labelledby="carDealerships-tab">
+                        <ul>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-car-01.jpg" alt="Remove background from image">
+                                    <span>Original image</span>
+                                </div>
+                                <div class="itemHover">
+                                    <img src="images/demo-car-02.jpg" alt="Free background removal online">
+                                    <span>Removed background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-car-03.jpg" alt="Add new background on Car image">
+                                    <span class="bottom light">Add new background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-car-04.jpg" alt="Design as you like the Car image">
+                                    <span class="bottom light">Design as you like</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="animal" role="tabpanel" aria-labelledby="animal-tab">
+                        <ul>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-animal-01.jpg" alt="Remove background from image">
+                                    <span>Original image</span>
+                                </div>
+                                <div class="itemHover">
+                                    <img src="images/demo-animal-02.jpg" alt="Free background removal online">
+                                    <span>Removed background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-animal-03.jpg" alt="Add new background on Animal image">
+                                    <span class="light">Add new background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-animal-04.jpg" alt="Design as you like The Animal image">
+                                    <span>Design as you like</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
+                        <ul>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-graphics-01.jpg" alt="Remove background from image">
+                                    <span>Original image</span>
+                                </div>
+                                <div class="itemHover">
+                                    <img src="images/demo-graphics-02.jpg" alt="Free background removal online">
+                                    <span>Removed background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-graphics-03.jpg" alt="Add new background on Graphics image">
+                                    <span>Add new background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-graphics-04.jpg" alt="Design as you like the Graphics image">
+                                    <span>Design as you like</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="realestate" role="tabpanel" aria-labelledby="realestate-tab">
+                        <ul>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-real-estate-01.jpg" alt="Remove background from image">
+                                    <span>Original image</span>
+                                </div>
+                                <div class="itemHover">
+                                    <img src="images/demo-real-estate-02.jpg" alt="Free background removal online">
+                                    <span>Removed background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-real-estate-03.jpg"
+                                        alt="Add new background on Real Estate image">
+                                    <span class="light">Add new background</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itemHover">
+                                    <img src="images/demo-real-estate-04.jpg"
+                                        alt="Design as you like the Real Estate image">
+                                    <span class="light">Design as you like</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="static-content-01">
+            <div class="container">
+                <div class="static-row">
+                    <div class="static-img">
+                        <div id class="beer-slider" data-beer-label="after" data-start="25">
+                            <img src="images/home-demo-01_B.jpg"
+                                alt="Slazzer is proving you new Background Removal Technology">
+                            <div class="beer-reveal" data-beer-label="before">
+                                <img src="images/home-demo-01_A.jpg"
+                                    alt="Slazzer is proving you new Background Removal Technology">
+                            </div>
+                        </div>
+                        <div class="dark-bg top-left">
+                            <img src="fonts/maxcoach.svg" alt="maxcoach.svg">
+                            <img src="images/shape-01.webp" alt="shape-01.webp">
+                        </div>
+                    </div>
+                    <div class="static-content">
+                        <h2>Remove backgrounds 100% Automatically in just seconds</h2>
+                        <div class="content">
+                            <p>Our online background remover instantly detects the subject from any photo and gives you
+                                a smooth & clear cutout.</p>
+                            <p>Now you can save a incredible amount of time as our AI is capable of handling hair, fur
+                                or any complex edges in just a few seconds.</p>
+                            <a href="https://github.com/leonaeng/bg-remover/archive/refs/heads/main.zip" title class="button download">Try it for Free<i
+                                    class="fa fa-angle-double-right"></i></a>   
+                        </div>
+                    </div>
+                </div>
+                <div class="static-row">
+                    <div class="static-img">
+                        <img src="images/desktop-app.jpg" alt="Remove background images in bulk with slazzer">
+                        <div class="dark-bg bottom-right">
+                            <img src="fonts/maxcoach.svg" alt="maxcoach.svg">
+                            <img src="images/shape-02.webp" alt="shape-01.webp">
+                        </div>
+                    </div>
+                    <div class="static-content">
+                        <h2>Best background remover for Windows</h2>
+                        <div class="content">
+                            <p>Install our desktop application to drag and drop 1000s of images at once. Click "Start"
+                                and watch as each image gets cut out automatically.</p>
+                            <p>Boost your efficiency and replace background from multiple images to get thousands of AI
+                                powered cut outs for all your design needs.</p>
+                            <a href="https://github.com/leonaeng/bg-remover/archive/refs/heads/main.zip" title class="button download">Remove background now<i
+                                    class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section class="slz-frag-try">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 mb-5 mb-lg-0">
+                        <h2>Remove image background automatically</h2>
+                        <h6>Download BG Remover and get a clear transparent background</h6>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="upload">
+                            <a type="btn" class="upload-photo upload-image-file-btn download" href="https://github.com/leonaeng/bg-remover/archive/refs/heads/main.zip">
+                                <i class="fa fa fa-picture-o"></i>Download BG Remover
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="js/optin.min.js"
+            onload="setupSF('sf3z57d51e7a3893f81fa6b140cf1e52dbb7d9fabc52316cfab6bda31854176314be','ZCFORMVIEW',false,'light',false,'0')"></script>
+        <script type="text/javascript">
+            function runOnFormSubmit_sf3z57d51e7a3893f81fa6b140cf1e52dbb7d9fabc52316cfab6bda31854176314be(th) {
+                /*Before submit, if you want to trigger your event, "include your code here"*/
+            };
+        </script>
+        <style>
+            #customForm.quick_form_9_css * {
+                -webkit-box-sizing: border-box !important;
+                -moz-box-sizing: border-box !important;
+                box-sizing: border-box !important;
+                overflow-wrap: break-word
+            }
+
+            @media only screen and (max-width: 200px) {
+                .quick_form_9_css[name="SIGNUP_BODY"] {
+                    width: 100% !important;
+                    min-width: 100% !important;
+                    margin: 0px auto !important;
+                    padding: 0px !important
+                }
+            }
+
+            @media screen and (min-width: 320px) and (max-width: 580px) and (orientation: portrait) {
+                .quick_form_9_css[name="SIGNUP_BODY"] {
+                    max-width: 300px !important;
+                    margin: 0px auto !important;
+                    padding: 0px !important
+                }
+            }
+
+            @media only screen and (max-device-width: 1024px) {
+                .quick_form_9_css[name="SIGNUP_BODY"] {
+                    max-width: 500px !important;
+                    margin: 0px auto !important
+                }
+            }
+
+            @media only screen and (max-device-width: 1024px) and (orientation: landscape) {
+                .quick_form_9_css[name="SIGNUP_BODY"] {
+                    max-width: 700px !important;
+                    margin: 0px auto !important
+                }
+            }
+
+            @media screen and (min-width: 475px) and (max-width: 980px) and (orientation: landscape) {
+                .quick_form_9_css[name="SIGNUP_BODY"] {
+                    max-width: 400px !important;
+                    margin: 0px auto !important;
+                    padding: 0px !important
+                }
+            }
+        </style>
+        
+    </div>
+
+    <script src="js/svg.min.js"></script>
+    <style type="text/css">
+        .cursor {
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 2px solid #222;
+            z-index: 6;
+            pointer-events: none;
+        }
+    </style>
+    
+    
+    <script type="text/javascript" src="js/packed1.js"></script>
+
+
+</body>
+
+</html>
