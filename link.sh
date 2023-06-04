@@ -3,7 +3,7 @@
 Help()
 {
    # Display Help
-   available_offers=$(ls -m /home/offers/server-main)
+   available_offers=$(ls -m /home/offers/server-up-main)
    echo -e "Run script with -o offer_name flag and enter an offer name."
    echo
    echo -e "Available offer names: \e[1;33m$available_offers\e[0m"
@@ -14,16 +14,21 @@ Help()
    echo -e "On the last steps enter profile and offer name to get link with utm"
    echo
 }
+
+
+if [ "$*" == "" ]; then
+    >&2 echo "No arguments founded. Run script with -h flag for help"
+    exit 1
+fi
+
 LinkCreator()
 {
+	subdomain=$(tr -dc a-z </dev/urandom | head -c 10; echo);
 	echo -n "Enter DOLPHIN profile name: "
 	read profilename
-	echo -e "\e[1;33mSelected offer: '$offer'\e[0m. Starting script."
-	subdomain=$(tr -dc a-z </dev/urandom | head -c 10; echo)
-	echo $subdomain
-	domain='fregn.com'
-	echo $domain
-	certbot certonly --apache -n -d $subdomain.$domain
+	domain='miseika.com'
+	echo -e "Website: \e[1;33m$subdomain.$domain\e[0m generating with offer \e[1;33m'$offer'\e[0m."
+	certbot certonly --apache -n -d $subdomain.$domain 
 	echo "<IfModule mod_ssl.c>
 	<VirtualHost *:443>
 		ServerAdmin webmaster@localhost
@@ -48,21 +53,15 @@ LinkCreator()
 
 	ServerName $subdomain.$domain
 	RewriteEngine on
-	RewriteCond %{SERVER_NAME} =universitysimulator.com
+	RewriteCond %{SERVER_NAME} =$domain
 	RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 </VirtualHost>" | tee -a /etc/apache2/sites-available/000-default.conf
-	cp -r /home/offers/server-main/$offer /var/www/$subdomain
+	cp -r /home/offers/server-up-main/$offer /var/www/$subdomain
 	certbot certonly --force-renew --apache -n -d $subdomain.$domain
 	echo "# Link for cloaking: $subdomain.$domain" | tee -a /var/www/$subdomain/index.php
 	nano /var/www/$subdomain/index.php
 	printf '%s\n' "Your link: https://$subdomain.$domain/?utm_source=$profilename&utm_medium=$offer&utm_term={keyword}"
 }
-
-if [ "$*" == "" ]; then
-    >&2 echo "No arguments founded. Run script with -h flag for help"
-    exit 1
-fi
-
 
 while getopts ":ho:" option; do
    case $option in
@@ -78,4 +77,6 @@ while getopts ":ho:" option; do
          exit;;
    esac
 done
+
+
 

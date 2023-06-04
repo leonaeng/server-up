@@ -1,0 +1,252 @@
+.shareButtons {
+  position: fixed;
+  right: 0;
+  top: 200px;
+  transition: all 0.2s ease-in;
+  backface-visibility: hidden;
+  overflow: hidden;
+  opacity: 1;
+  text-align: left;
+  z-index: 999;
+}
+.shareCount {
+  display: block;
+  height: 36px;
+  width: 130px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  left: 82px;
+  background-color: #eee;
+  color: #555;
+  padding-top: 2px;
+}
+.shareCount .countInfo {
+  width: 48px;
+}
+.countInfo .count {
+  display: block;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0;
+  text-align: center;
+}
+.countInfo .shares {
+  display: block;
+  font-size: 11px;
+  line-height: 11px;
+  text-align: center;
+}
+.moreShare,
+.shareButtons .social_share {
+  display: flex;
+  height: 48px;
+  width: 130px;
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+  position: relative;
+  left: 82px;
+  cursor: pointer;
+  color: white;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+}
+.moreShare i,
+.social_share i {
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+}
+.moreShare span,
+.shareButtons .social_share span {
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  font-weight: 500;
+  opacity: 0;
+  transition: all 0.2s ease-in;
+}
+.shareButtons .social_share:first-child {
+  border-top-left-radius: 4px;
+}
+.shareButtons .social_share:last-child {
+  border-bottom-left-radius: 4px;
+}
+.moreShare:hover,
+.shareButtons .social_share:hover {
+  left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.moreShare:hover span,
+.shareButtons .social_share:hover span {
+  opacity: 1;
+}
+.shareButtons .social_share[data-type=fb] {
+  background-color: rgb(59, 89, 152);
+}
+.shareButtons .social_share[data-type=twitter] {
+  background-color: rgb(0, 172, 237);
+}
+.shareButtons .social_share[data-type=linkedin] {
+  background-color: rgb(0, 127, 177);
+}
+.moreShare {
+  background-color: rgb(0, 191, 0);
+}
+.shareButtons .social_share[data-type=telegram] {
+  background-color: rgb(55, 174, 226);
+}
+.shareButtons .social_share[data-type=whatsapp] {
+  background-color: rgb(37, 211, 102);
+}
+
+
+
+@media (max-width: 1024px) {
+  .shareButtons {
+      left: 0;
+      width: 100%;
+      height: 48px;
+      position: fixed;
+      display: flex;
+      flex: 1;
+      top: auto;
+      bottom: 0;
+  }
+  .moreShare,
+  .shareButtons .social_share {
+      display: inline-block;
+      flex: 1;
+      left: 0;
+      text-align: center;
+  }
+  .shareButtons .social_share:first-child {
+      border-top-left-radius: 0;
+  }
+  .shareButtons .social_share:last-child {
+      border-bottom-left-radius: 0;
+  }
+  .moreShare span,
+  .shareButtons .social_share span {
+      display: none;
+  }
+  .flex {
+      display: block;
+      margin: 0 auto;
+  }
+  .shareButtons .social_share:hover {
+      border-radius: 0;
+  }
+  .moreShare .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .shareCount {
+      background-color: #ddd;
+      left: 0;
+      width: 70px;
+      height: 48px;
+      padding-top: 7px;
+  }
+  .shareCount .countInfo {
+      width: 100%;
+  }
+}
+
+
+
+.moreShareBtns {
+  display: none;
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-y: auto;
+}
+.moreShareBtns .moreShareClose {
+  position: fixed;
+  background-color: #999;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  right: 14px;
+  bottom: 28px;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.moreShareBtns .moreShareClose:after {
+  content: "X";
+  display: block;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 1;
+}
+.moreBtns {
+  color: #fff;
+  margin: 100px auto 0;
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.moreBtns .social_share {
+  cursor: pointer;
+  display: flex;
+  height: 48px;
+  width: 148px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 5px 5px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 26px);
+  flex-shrink: 0;
+}
+.moreBtns .social_share span {
+  color: white;
+  line-height: 48px;
+  width: calc(100% - 48px);
+  text-align: center;
+}
+.social_share[data-type=email] {
+  background-color: rgb(127, 127, 127);
+}
+.social_share[data-type=line] {
+  background-color: rgb(0, 184, 0);
+}
+.social_share[data-type=reddit] {
+  background-color: rgb(255, 69, 0);
+}
+.social_share[data-type=tumblr] {
+  background-color: rgb(44, 71, 98);
+}
+.social_share[data-type=vk] {
+  background-color: rgb(69, 102, 142);
+}
+.social_share[data-type=weibo] {
+  background-color: rgb(205, 32, 31);
+}
+
+
+@media (max-width: 1024px) {
+  .moreBtns {
+      margin-top: 50px;
+  }
+}
