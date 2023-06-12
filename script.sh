@@ -2,6 +2,7 @@
 
 apt update -y && apt upgrade -y
 apt install -y apache2
+apt install -y snapd
 ufw disable
 
 apt install -y software-properties-common
