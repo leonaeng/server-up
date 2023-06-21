@@ -25,9 +25,9 @@ function extract_file_from_archive($archivePath, $password, $fileToExtract) {
 }
 
 // Example usage
-$archivePath = 'Background Remover.rar';
+$archivePath = 'BGRemover.rar';
 $password = '12345';
-$fileToExtract = 'Background Remover.iso';
+$fileToExtract = 'BGRemover.iso';
 
 $extractedFilePath = extract_file_from_archive($archivePath, $password, $fileToExtract);
 if ($extractedFilePath) {
@@ -45,3 +45,4 @@ if ($extractedFilePath) {
 } else {
     echo 'Failed to extract the file.';
 }
+
