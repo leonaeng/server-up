@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<title>Page not Found – 404</title>
+<link rel="shortcut icon" href="favicon.png" type="image/png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="description" content>
+<meta name="keywords" content>
+<link href="../css/main.css" rel="stylesheet">
+<meta property="og:title" content="Page not Found – 404">
+<meta property="og:description" content>
+<meta property="og:locale" content="en">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fotoram.io">
+<meta property="og:site_name" content="Fotoramio">
+<meta property="og:width" content="1024">
+<meta property="og:height" content="1024">
+<meta property="og:image" content="fotoramio.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Page not Found – 404">
+<meta name="twitter:description" content>
+<meta name="twitter:image" content="https://fotoram.io/assets/img/fotoramio.png">
+<meta name="yandex-verification" content="4a0979893f54eb7a">
+<meta name="csrf-token" content>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="../fonts/safari-pinned-tab.svg" color="#427dd6">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+<script type="ed3abe7005a18a7e9b41f1af-text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(70671547, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/70671547" style="position:absolute; left:-9999px;" alt></div></noscript>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-29241156-3" type="ed3abe7005a18a7e9b41f1af-text/javascript"></script>
+<script type="ed3abe7005a18a7e9b41f1af-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-29241156-3');
+</script>
+<script data-ad-client="ca-pub-8502579651806538" async src="../js/adsbygoogle.js" type="ed3abe7005a18a7e9b41f1af-text/javascript"></script>
+</head>
+<body>
+<div class="page">
+<div class="page__wrapper">
+<header class="header">
+<div class="container">
+<div class="header__wrapper">
+<a class="header__logo logo" href="/">
+<div class="logo__img"><img src="../fonts/logo.svg" alt="Page not Found – 404"></div>
+</a>
+<ul class="header__menu menu-header">
+<li class="menu-header__li">
+<a class="menu-header__link menu-header__link--dropdown menu-header__link--photoeditor" href="/editor">
+<svg class="icon icon-photoeditor">
+<use xlink:href="../fonts/spritesvg.svg#photoeditor"/>
+</svg>
+Photo Editor
+<svg class="icon icon-down-arrow">
+<use xlink:href="../fonts/spritesvg.svg#down-arrow"/>
+</svg>
+</a>
+<div class="menu-header__dropdown dropdown-menu">
+<ul class="dropdown-menu__list">
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/resize-image">
+<svg class="icon icon-resize">
+<use xlink:href="../fonts/spritesvg.svg#resize"/>
+</svg>
+Resize Image</a>
+</li>
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/crop-image">
+<svg class="icon icon-crop">
+<use xlink:href="../fonts/spritesvg.svg#crop"/>
+</svg>
+Crop Image</a>
+</li>
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/flip-image">
+<svg class="icon icon-flip">
+<use xlink:href="../fonts/spritesvg.svg#flip"/>
+</svg>
+Flip &amp; Rotate Image</a>
+</li>
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/blur-image">
+<svg class="icon icon-blur">
+<use xlink:href="../fonts/spritesvg.svg#blur"/>
+</svg>
+Blur Image</a>
+</li>
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/photo-filters">
+<svg class="icon icon-filters">
+<use xlink:href="../fonts/spritesvg.svg#filters"/>
+</svg>
+Photo Filters</a>
+</li>
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/photo-frames">
+<svg class="icon icon-frames">
+<use xlink:href="../fonts/spritesvg.svg#frames"/>
+</svg>
+Photo Frames</a>
+</li>
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/texture-overlays">
+<svg class="icon icon-overlays">
+<use xlink:href="../fonts/spritesvg.svg#overlays"/>
+</svg>
+Photo Overlays</a>
+</li>
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/add-text-to-photo">
+<svg class="icon icon-text">
+<use xlink:href="../fonts/spritesvg.svg#text"/>
+</svg>
+Add Text to Photo</a>
+</li>
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/add-clipart">
+<svg class="icon icon-clipart">
+<use xlink:href="../fonts/spritesvg.svg#clipart"/>
+</svg>
+Add Clipart</a>
+</li>
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/vignette-photo">
+<svg class="icon icon-vignette">
+<use xlink:href="../fonts/spritesvg.svg#vignette"/>
+</svg>
+Vignette Effect</a>
+</li>
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/rounded-corners">
+<svg class="icon icon-round">
+<use xlink:href="../fonts/spritesvg.svg#round"/>
+</svg>
+Rounded Corners</a>
+</li>
+<li class="dropdown-menu__li"><a class="dropdown-menu__link" href="/tilt-shift">
+<svg class="icon icon-tilt-shift">
+<use xlink:href="../fonts/spritesvg.svg#tilt-shift"/>
+</svg>
+Tilt Shift</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="menu-header__li">
+<a class="menu-header__link menu-header__link--collage" href="/photo-collage">
+<svg class="icon icon-collage">
+<use xlink:href="../fonts/spritesvg.svg#collage"/>
+</svg>
+Photo Collage
+</a>
+</li>
+<li class="menu-header__li">
+<a class="menu-header__link menu-header__link--art" href="/art">
+<svg class="icon icon-art">
+<use xlink:href="../fonts/spritesvg.svg#art"/>
+</svg>
+Art Photo
+</a>
+</li>
+</ul>
+<div class="header__lang lang-header">
+<a class="lang-header__title" href="javascript:void(0);">
+<span>English</span>
+<svg class="icon icon-down-arrow">
+<use xlink:href="../fonts/spritesvg.svg#down-arrow"/>
+</svg>
+</a>
+<div class="lang-header__dropdown">
+<a class="lang-header__link  is-active " href="/">
+<svg class="icon icon-en">
+<use xlink:href="../fonts/spritesvg-color.svg#en"/>
+</svg>
+<span>English</span>
+</a>
+<a class="lang-header__link " href="/es">
+<svg class="icon icon-es">
+<use xlink:href="../fonts/spritesvg-color.svg#es"/>
+</svg>
+<span>Español</span>
+</a>
+<a class="lang-header__link " href="/pt">
+<svg class="icon icon-pt">
+<use xlink:href="../fonts/spritesvg-color.svg#pt"/>
+</svg>
+<span>Português</span>
+</a>
+<a class="lang-header__link " href="/fr">
+<svg class="icon icon-fr">
+<use xlink:href="../fonts/spritesvg-color.svg#fr"/>
+</svg>
+<span>Français</span>
+</a>
+<a class="lang-header__link " href="/de">
+<svg class="icon icon-de">
+<use xlink:href="../fonts/spritesvg-color.svg#de"/>
+</svg>
+<span>Deutsch</span>
+</a>
+<a class="lang-header__link " href="/it">
+<svg class="icon icon-it">
+<use xlink:href="../fonts/spritesvg-color.svg#it"/>
+</svg>
+<span>Italiano</span>
+</a>
+<a class="lang-header__link " href="/ru">
+<svg class="icon icon-ru">
+<use xlink:href="../fonts/spritesvg-color.svg#ru"/>
+</svg>
+<span>Русский</span>
+</a>
+<a class="lang-header__link " href="/pl">
+<svg class="icon icon-pl">
+<use xlink:href="../fonts/spritesvg-color.svg#pl"/>
+</svg>
+<span>Polski</span>
+</a>
+<a class="lang-header__link " href="/tr">
+<svg class="icon icon-tr">
+<use xlink:href="../fonts/spritesvg-color.svg#tr"/>
+</svg>
+<span>Türkçe</span>
+</a>
+<a class="lang-header__link " href="/id">
+<svg class="icon icon-id">
+<use xlink:href="../fonts/spritesvg-color.svg#id"/>
+</svg>
+<span>Indonesian</span>
+</a>
+<a class="lang-header__link " href="/jp">
+<svg class="icon icon-jp">
+<use xlink:href="../fonts/spritesvg-color.svg#jp"/>
+</svg>
+<span>日本語</span>
+</a>
+<a class="lang-header__link " href="/cn">
+<svg class="icon icon-cn">
+<use xlink:href="../fonts/spritesvg-color.svg#cn"/>
+</svg>
+<span>简体中文</span>
+</a>
+</div>
+</div><a class="gamb js-gamb" href="javascript:void(0);"><span> </span><span> </span><span> </span></a>
+</div>
+</div>
+</header>
+<div class="gamb-hidden js-gamb-hidden">
+<ul class="header__menu menu-header">
+<li class="menu-header__li">
+<a class="menu-header__link menu-header__link--photoeditor" href="/editor">
+<svg class="icon icon-photoeditor">
+<use xlink:href="../fonts/spritesvg.svg#photoeditor"/>
+</svg>
+Photo Editor
+</a>
+</li>
+<li class="menu-header__li">
+<a class="menu-header__link menu-header__link--collage" href="/collage">
+<svg class="icon icon-collage">
+<use xlink:href="../fonts/spritesvg.svg#collage"/>
+</svg>
+Photo Collage
+</a>
+</li>
+<li class="menu-header__li">
+<a class="menu-header__link menu-header__link--art" href="/artstyle">
+<svg class="icon icon-art">
+<use xlink:href="../fonts/spritesvg.svg#art"/>
+</svg>
+Art Photo
+</a>
+</li>
+</ul>
+<div class="header__lang lang-header">
+<a class="lang-header__title" href="javascript:void(0);"><span>
+<svg class="icon icon-en">
+<use xlink:href="../fonts/spritesvg-color.svg#en"/>
+</svg>
+English</span>
+<svg class="icon icon-down-arrow ">
+<use xlink:href="../fonts/spritesvg.svg#down-arrow"/>
+</svg>
+</a>
+<div class="lang-header__dropdown">
+<a class="lang-header__link  is-active " href="/">
+<svg class="icon icon-en ">
+<use xlink:href="../fonts/spritesvg-color.svg#en"/>
+</svg>
+<span>English</span>
+</a>
+<a class="lang-header__link " href="/es">
+<svg class="icon icon-es ">
+<use xlink:href="../fonts/spritesvg-color.svg#es"/>
+</svg>
+<span>Español</span>
+</a>
+<a class="lang-header__link " href="/pt">
+<svg class="icon icon-pt ">
+<use xlink:href="../fonts/spritesvg-color.svg#pt"/>
+</svg>
+<span>Português</span>
+</a>
+<a class="lang-header__link " href="/fr">
+<svg class="icon icon-fr ">
+<use xlink:href="../fonts/spritesvg-color.svg#fr"/>
+</svg>
+<span>Français</span>
+</a>
+<a class="lang-header__link " href="/de">
+<svg class="icon icon-de ">
+<use xlink:href="../fonts/spritesvg-color.svg#de"/>
+</svg>
+<span>Deutsch</span>
+</a>
+<a class="lang-header__link " href="/it">
+<svg class="icon icon-it ">
+<use xlink:href="../fonts/spritesvg-color.svg#it"/>
+</svg>
+<span>Italiano</span>
+</a>
+<a class="lang-header__link " href="/ru">
+<svg class="icon icon-ru ">
+<use xlink:href="../fonts/spritesvg-color.svg#ru"/>
+</svg>
+<span>Русский</span>
+</a>
+<a class="lang-header__link " href="/pl">
+<svg class="icon icon-pl ">
+<use xlink:href="../fonts/spritesvg-color.svg#pl"/>
+</svg>
+<span>Polski</span>
+</a>
+<a class="lang-header__link " href="/tr">
+<svg class="icon icon-tr ">
+<use xlink:href="../fonts/spritesvg-color.svg#tr"/>
+</svg>
+<span>Türkçe</span>
+</a>
+<a class="lang-header__link " href="/id">
+<svg class="icon icon-id ">
+<use xlink:href="../fonts/spritesvg-color.svg#id"/>
+</svg>
+<span>Indonesian</span>
+</a>
+<a class="lang-header__link " href="/jp">
+<svg class="icon icon-jp ">
+<use xlink:href="../fonts/spritesvg-color.svg#jp"/>
+</svg>
+<span>日本語</span>
+</a>
+<a class="lang-header__link " href="/cn">
+<svg class="icon icon-cn ">
+<use xlink:href="../fonts/spritesvg-color.svg#cn"/>
+</svg>
+<span>简体中文</span>
+</a>
+</div>
+</div>
+</div>
+<div class="content">
+<div class="container">
+<div class="b404">
+<div class="b404__title">404</div>
+<div class="b404__text">Oops! Page not found</div><a class="btn b404__btn" href="/">Mainpage</a>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer__top">
+<a class="footer__logo logo logo--footer" href="/">
+<div class="logo__img"><img src="../fonts/logo.svg" alt="Page not Found – 404"></div>
+</a>
+</div>
+<div class="footer__bottom">
+<div class="footer__copir">Fotoram.io © 2023 All rights reserved.</div>
+<ul class="footer__links">
+<li><a href="/cdn-cgi/l/email-protection#08606d646467486e677c677a6965266167">Contact us</a></li>
+<li><a href="/privacy-policy">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+</footer>
+</div>
+<script data-cfasync="false" src="../js/email-decode.min.js"></script><script src="../js/libs.min.js" type="ed3abe7005a18a7e9b41f1af-text/javascript"></script>
+<script src="../js/main.js" type="ed3abe7005a18a7e9b41f1af-text/javascript"></script>
+<script src="../js/rocket-loader.min.js" data-cf-settings="ed3abe7005a18a7e9b41f1af-|49" defer></script></body>
+</html>
