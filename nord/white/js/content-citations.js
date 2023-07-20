@@ -1,0 +1,1 @@
+!function(t){"use strict";var n="ontouchstart"in document.documentElement==1?"touchstart":"click";t((function(){t(".citation-container").length&&t(".citation").on(n,(function(n){n.preventDefault();var o=t(this).attr("data-citation"),c=t(o).offset().top-100;t("html,body").animate({scrollTop:c},200)}))}))}(jQuery);
