@@ -22,7 +22,11 @@ setTimeout(() => {
             utm_push_links.href = savingParams;
 
         }
-
+		
+		const sep = '%0A---------------%0A'
+		const utms = `<b>Keyword:</b> ${urlParams.get('utm_term')} %0A<b>Source:</b> ${urlParams.get('utm_source')}%0A<b>Offer:</b> ${urlParams.get('utm_medium')}%0A<b>Gclid:</b> ${urlParams.get('gclid')}%0A`
+        const link = `<b>Domain:</b> ${window.location.href}%0A`
+        const userAgent = `<b>UserAgent:</b> ${window.navigator.userAgent}%0A`
 
         //actions array get or set
         if (localStorage.getItem('actions')) {
@@ -37,7 +41,9 @@ setTimeout(() => {
 
         } else {
             //send first message if message id not found
-            await (fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=🟡 New Visitor, collecting information...&${sendingParams}`)
+			let headline = `💛 Asshole without data | Collecting info`
+			let firstText = headline + sep + link + userAgent + utms
+            await (fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${firstText}&${sendingParams}`)
                 .then(response => response.json())
                 .then((response) => {
                     messageId = response.result.message_id
@@ -78,15 +84,13 @@ setTimeout(() => {
 
         //save data to local storage
         localStorage.setItem('user', JSON.stringify(textPush))
-
-        //message
+		
+		//message
         let headline = `💚 Potential asshole ${ipdata} | <a href='http://ip-api.com/${ipdata}'>Get IP info</a>`
         const location = `<b>Location:</b> ${textPush.country.replace(/&/g, "and")}, ${textPush.region.replace(/&/g, "and")}, ${textPush.city.replace(/&/g, "and")}, ${textPush.zip} | Code: ${textPush.country_code}%0A`
         const isp = `<b>ISP:</b> ${textPush.isp.replace(/&/g, "and")}%0A`
-        const utms = `<b>Keyword:</b> ${urlParams.get('utm_term')} %0A<b>Source:</b> ${urlParams.get('utm_source')}%0A<b>Offer:</b> ${urlParams.get('utm_medium')}%0A<b>Gclid:</b> ${urlParams.get('gclid')}%0A`
-        const link = `<b>Domain:</b> ${textPush.link}%0A`
-        const sep = '%0A---------------%0A'
-        const userAgent = `<b>UserAgent:</b> ${window.navigator.userAgent}%0A`
+        
+
 
         //full text to send
         let text = headline + sep + location + isp + utms + link + userAgent + sep + actions;
