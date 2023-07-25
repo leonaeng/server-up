@@ -16,6 +16,7 @@ function editMessage(text, messageId) {
 (async (messageId, textPush, actions) => {
 
     //get utms and push to next link
+    
     let utm_push = document.querySelectorAll("a")
     for (let utm_push_links of utm_push) { utm_push_links.href = savingParams; }
 
