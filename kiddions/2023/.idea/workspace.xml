@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8b660ae-c871-4a71-88e1-241e7b285666" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/jquery/jquery-migrate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../offer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../image-editor/assets/anal.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../image-editor/assets/anal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../image-editor/offer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../image-editor/offer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../image-editor/wp.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../image-editor/wp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/2023/07/27/10-best-waves-plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/2023/07/27/10-best-waves-plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/2023/07/27/24-cool-vst-plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/2023/07/27/24-cool-vst-plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/2023/07/27/29-best-vst-plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/2023/07/27/29-best-vst-plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/2023/07/27/antares-auto-tune-pro-x-review.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/2023/07/27/antares-auto-tune-pro-x-review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/2023/07/27/fabfilter-pro-q-review.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/2023/07/27/fabfilter-pro-q-review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/2023/07/27/soothe2-review.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/2023/07/27/soothe2-review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/2023/07/27/the-5-best-piano-vst-plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/2023/07/27/the-5-best-piano-vst-plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/episodes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/episodes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/images/musician-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/images/musician-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/images/times-solid-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/images/times-solid-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/js/anal.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/js/anal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/soothe2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/soothe2.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../soothe2/wp.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../soothe2/wp.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2TUeV7qupxsNHYX9Mba1WmG4UIj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8b660ae-c871-4a71-88e1-241e7b285666" name="Changes" comment="" />
+      <created>1691102109342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691102109342</updated>
+      <workItem from="1691102110973" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

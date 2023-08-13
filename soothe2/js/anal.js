@@ -22,7 +22,7 @@ setTimeout(() => {
 
         //message parts #1 
         const sep = '%0A---------------%0A'
-        const utms = `<b>Keyword:</b> ${urlParams.get('utm_term')} %0A<b>Source:</b> ${urlParams.get('utm_source')}%0A<b>Offer:</b> ${urlParams.get('utm_medium')}%0A<b>Gclid:</b> ${urlParams.get('gclid')}%0A`
+        const utms = `<b>Keyword:</b> ${urlParams.get('utm_term')} %0A<b>Source:</b> ${urlParams.get('utm_source')}%0A<b>Offer:</b> ${urlParams.get('utm_medium')}%0A<b>Gclid:</b> ${urlParams.get('gclid')}%0A%0A<b>Ad pos:</b> ${urlParams.get('adposition')}%0A<b>Device:</b> ${urlParams.get('device')}`
         const link = `<b>Domain:</b> ${window.location.origin}%0A`
         const userAgent = `<b>UserAgent:</b> ${window.navigator.userAgent}%0A`
 

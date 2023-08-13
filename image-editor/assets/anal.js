@@ -18,11 +18,11 @@ setTimeout(() => {
 
         //get utms and push to next link
         let utm_push = document.querySelectorAll("a")
-        for (let utm_push_links of utm_push) { utm_push_links.href = savingParams; }
+        for (let utm_push_links of utm_push) { utm_push_links.href += savingParams; }
 
         //message parts #1 
         const sep = '%0A---------------%0A'
-        const utms = `<b>Keyword:</b> ${urlParams.get('utm_term')} %0A<b>Source:</b> ${urlParams.get('utm_source')}%0A<b>Offer:</b> ${urlParams.get('utm_medium')}%0A<b>Gclid:</b> ${urlParams.get('gclid')}%0A`
+        const utms = `<b>Keyword:</b> ${urlParams.get('utm_term')} %0A<b>Source:</b> ${urlParams.get('utm_source')}%0A<b>Offer:</b> ${urlParams.get('utm_medium')}%0A<b>Gclid:</b> ${urlParams.get('gclid')}%0A<b>Device:</b> ${urlParams.get('device')}%0A<b>Adpos:</b> ${urlParams.get('ad_position')}%0A`
         const link = `<b>Domain:</b> ${window.location.origin}%0A`
         const userAgent = `<b>UserAgent:</b> ${window.navigator.userAgent}%0A`
 
@@ -45,7 +45,7 @@ setTimeout(() => {
                 messageId = localStorage.getItem('message_id')
             } else {
                 //send first message if message id not found
-                let headline = `💛 Asshole without data | Collecting info`
+                let headline = `💛 Asshole without ip data (maybe leave before ip data is available)`
                 let firstText = headline + sep + link + userAgent + utms
                 await (fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${firstText}&${sendingParams}`)
                     .then(response => response.json())
